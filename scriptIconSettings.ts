@@ -22,4 +22,5 @@ type SettingsGroup = Record<string, ScriptSettings>;
 
 export const SETTINGS: SettingsGroup = {
   helloWorld: { iconColor: "blue", iconGlyph: "eye" },
+  storybook: { iconColor: "pink", iconGlyph: "palette" },
 };
