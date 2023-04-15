@@ -11,9 +11,8 @@ const config = {
   output: {
     dir: "..",
     format: "es",
-    plugins: [terser()],
   },
-  plugins: [typescript(), nodeResolve(), addFileIconSettings(ENTRY_FILE_PATH!)],
+  plugins: [typescript(), nodeResolve(), terser(), addFileIconSettings(ENTRY_FILE_PATH!)],
   watch: {
     include: "src/**",
   },
